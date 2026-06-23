@@ -1,0 +1,37 @@
+{
+  "registeredUsers": [
+    {
+      "name": "zul",
+      "email": "zul@gmail.com",
+      "phone": "9876543210",
+      "city": "varkala",
+      "password": "123",
+      "id": "YDwNgD9NbL0"
+    },
+    {
+      "name": "abeena a",
+      "email": "abi@gmail.com",
+      "phone": "3216549871",
+      "city": "kollam",
+      "password": "123abc",
+      "id": "ar5QmNwOP2A"
+    },
+    {
+      "name": "zairu",
+      "email": "zairu@gmail.com",
+      "phone": "7034062636",
+      "city": "palachira",
+      "password": "2607",
+      "id": "XJH_sfmBqHw"
+    },
+    {
+      "name": "mehru z",
+      "email": "mehru@gmail.com",
+      "phone": "3216549870",
+      "city": "kollam",
+      "password": "123123abc",
+      "id": "9jMMwhnAdf0"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

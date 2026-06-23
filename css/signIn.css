@@ -1,0 +1,159 @@
+
+
+
+
+/* Tablet View */
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 40px;
+  }
+
+  .section-together {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    vertical-align: middle;
+    align-items: center;
+  }
+
+  .form-container {
+    max-width: 800px;
+    width: 100%;
+    margin-right: 50px;
+    height: auto;
+
+  }
+
+  .form-container h1 {
+    font-size: 2.2rem;
+  }
+
+  .form-container input {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .btn-header {
+    font-size: 1.4rem;
+    padding: 12px 24px;
+    border-radius: 8px;
+    height: 48px;
+    align-items: center;
+  }
+
+  .hero-signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 50%;
+  }
+
+  .hero-signup-text h1 {
+    font-size: 2.4rem;
+  }
+
+  .hero-signup-text p {
+    font-size: 1.4rem;
+  }
+
+  .hero-signup-image {
+    display: block;
+  }
+ .hero-signup button {
+        color: #104d00;
+        margin-left: 10px;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 1.2rem;
+
+    }
+
+  .hero-signup img {
+    width: 500px;
+    height: auto;
+  }
+}
+
+/* Desktop View */
+@media (min-width: 1025px) {
+  body {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 60px;
+  }
+
+   .form-container {
+    max-width: 800px;
+    width: 100%;
+    margin-right: 50px;
+    height: auto;
+  }
+
+  .form-container h1 {
+    font-size: 2.6rem;
+  }
+
+  .form-container input {
+    width: 100%;
+    font-size: 1.4rem;
+  }
+
+  .section-together {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    vertical-align: middle;
+    align-items: center;
+  }
+
+  .btn-header {
+    font-size: 1.4rem;
+    padding: 14px 28px;
+    border-radius: 10px;
+    height: 52px;
+  }
+
+  .hero-signup {
+    display: flex;
+    flex-direction: column; /* text + image side by side */
+    align-items: center;
+    text-align: left;
+    width: 50%;
+    gap: 40px;
+  }
+
+  .hero-signup-text h1 {
+    font-size: 2.7rem;
+  }
+     .hero-signup button {
+        color: #104d00;
+        margin-left: 10px;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 1.4rem;
+
+    }
+
+
+  .hero-signup-text p {
+    font-size: 1.6rem;
+  }
+
+  .hero-signup-image {
+    flex: 1;
+    display: block;
+  }
+
+  .hero-signup img {
+    width: 600px;
+    height: auto;
+  }
+}

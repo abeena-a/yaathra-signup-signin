@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/signUp.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="head">
+            <img src="images/logo1.png" alt="Logo of yaathra">
+
+            <!-- Hamburger icon -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destination">Destination</a></li>
+                    <li><a href="#deals">Deals</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+
+            </div>
+            <button class="headerbutton" onclick="window.location.href='SignIn.html'">Sign In</button>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="d-flex flex-row section-together">
+            <div class="hero-signup" id="home">
+                <div class="hero-signup-text">
+                    <h1>Discover Your Dream <span style="color: rgb(8, 90, 56);">Vacation Today</span></h1>
+                    <p>Explore breathtaking destinations and enjoy exclusive travel deals with Yaathra</p>
+                    <button>Explore Now</button>
+                </div>
+                <div class="hero-signup-image">
+                    <img src="images/travel-hero-image.png" alt="family photo travel">
+                </div>
+            </div>
+
+
+            <div class="form-container d-flex flex-column justify-content-center gap-3">
+                <form>
+                    <div class="form container">
+                        <h1>Sign Up</h1>
+                        <div class="mb-3 d-flex flex-column">
+                            <input type="text" id="nameId" placeholder="Enter Your Full Name.">
+                            <span class="ErrorMessage" id="nameError"></span>
+                        </div>
+
+                        <div class="mb-3 d-flex flex-column">
+
+                            <input type="email" id="emailId" placeholder="Enter your Email Id.">
+                            <span class="ErrorMessage" id="emailError"></span>
+                        </div>
+
+                        <div class="mb-3 d-flex flex-column">
+
+                            <input type="number" id="phoneId" placeholder="Enter your Phone Number." maxlength="10" minlength="10">
+                            <span class="ErrorMessage" id="phoneError"></span>
+                        </div>
+
+                        <div class="mb-3 d-flex flex-column">
+
+                            <input type="text" id="cityId" placeholder="Enter your Location/City">
+                            <span class="ErrorMessage" id="cityError"></span>
+                        </div>
+
+                        <div class="mb-3 position-relative">
+                            <input type="password" class="form-control" id="passwordId"
+                                placeholder="Enter your password." style="padding-right: 40px;">
+                            <!-- extra space for icon -->
+                            <i class="bi bi-eye toggle-password" onclick="togglePassword('passwordId', this)"></i>
+                            <span class="ErrorMessage" id="passwordError"></span>
+                        </div>
+
+                        <div class="mb-3 position-relative">
+                            <input type="password" class="form-control" id="confirmPasswordId"
+                                placeholder="Confirm Your Password" style="padding-right: 40px;">
+                            <i class="bi bi-eye toggle-password"
+                                onclick="togglePassword('confirmPasswordId', this)"></i>
+                            <span class="ErrorMessage" id="confirmPasswordError"></span>
+                        </div>
+
+
+                        <button type="submit" class="btn btn-primary btn-header" id="btnSignUpId">Sign Up</button>
+                        <p> If you are already Signed Up, then click here to<a href="SignIn.html"> Sign In</a></p>
+                    </div>
+                </form>
+
+            </div>
+    </main>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="/js/SignUp.js"></script>
+</body>
+
+</html>
