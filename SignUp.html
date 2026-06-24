@@ -86,20 +86,23 @@
                                 placeholder="Enter your password." style="padding-right: 40px;">
                             <!-- extra space for icon -->
                             <i class="bi bi-eye toggle-password" onclick="togglePassword('passwordId', this)"></i>
-                            <span class="ErrorMessage" id="passwordError"></span>
                         </div>
+                            <span class="ErrorMessage" id="passwordError"></span>
+
 
                         <div class="mb-3 position-relative">
                             <input type="password" class="form-control" id="confirmPasswordId"
                                 placeholder="Confirm Your Password" style="padding-right: 40px;">
                             <i class="bi bi-eye toggle-password"
                                 onclick="togglePassword('confirmPasswordId', this)"></i>
-                            <span class="ErrorMessage" id="confirmPasswordError"></span>
                         </div>
+                            <span class="ErrorMessage" id="confirmPasswordError"></span>
 
 
+                        <div>
                         <button type="submit" class="btn btn-primary btn-header" id="btnSignUpId">Sign Up</button>
                         <p> If you are already Signed Up, then click here to<a href="SignIn.html"> Sign In</a></p>
+                        </div>
                     </div>
                 </form>
 

@@ -17,7 +17,8 @@ body {
   height: 40px;
   font-size: 1rem;
   text-align: center;
-  line-height: 20px;       
+  line-height: 20px;      
+
 }
 
 
@@ -103,6 +104,7 @@ body {
     cursor: pointer;
     height: 40px;
     font-size: 1rem;
+    
 }
 
 .hero button:hover {
@@ -156,7 +158,9 @@ body {
     .btn {
         font-size: 1.1rem;
         padding: 12px 24px;
-        border-radius: 8px;
+        border-radius: 30px;
+        text-align: center;
+        vertical-align: middle;
     }
 
     .hero-signup {
@@ -200,6 +204,7 @@ body {
         font-size: 1.1rem;
         padding: 12px 24px;
         border-radius: 8px;
+
     }
 }
 
@@ -235,7 +240,7 @@ body {
     .btn {
         font-size: 1.4rem;
         padding: 14px 28px;
-        border-radius: 10px;
+        border-radius: 30px;
     }
 
     .hero-signup {
